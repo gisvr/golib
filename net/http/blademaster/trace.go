@@ -6,8 +6,8 @@ import (
 	"net/http/httptrace"
 	"strconv"
 
-	"github/gisvr/wallet/src/lib/net/metadata"
-	"github/gisvr/wallet/src/lib/net/trace"
+	"github.com/gisvr/golib/net/metadata"
+	"github.com/gisvr/golib/net/trace"
 )
 
 const _defaultComponentName = "net/http"

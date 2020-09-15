@@ -3,9 +3,9 @@ package zipkin
 import (
 	"time"
 
-	"github/gisvr/wallet/src/lib/conf/env"
-	"github/gisvr/wallet/src/lib/net/trace"
-	xtime "github/gisvr/wallet/src/lib/time"
+	"github.com/gisvr/golib/conf/env"
+	"github.com/gisvr/golib/net/trace"
+	xtime "github.com/gisvr/golib/time"
 )
 
 // Config config.

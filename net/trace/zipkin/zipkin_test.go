@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github/gisvr/wallet/src/lib/net/trace"
-	xtime "github/gisvr/wallet/src/lib/time"
+	"github.com/gisvr/golib/net/trace"
+	xtime "github.com/gisvr/golib/time"
 )
 
 func TestZipkin(t *testing.T) {

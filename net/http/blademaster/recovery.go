@@ -6,7 +6,7 @@ import (
 	"os"
 	"runtime"
 
-	"github/gisvr/wallet/src/lib/log"
+	"github.com/gisvr/golib/log"
 )
 
 // Recovery returns a middleware that recovers from any panics and writes a 500 if there was one.

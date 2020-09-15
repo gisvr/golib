@@ -3,7 +3,7 @@ package warden
 import (
 	"context"
 
-	"github/gisvr/wallet/src/lib/ecode"
+	"github.com/gisvr/golib/ecode"
 
 	"google.golang.org/grpc"
 	"gopkg.in/go-playground/validator.v9"

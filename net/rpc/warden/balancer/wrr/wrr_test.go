@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github/gisvr/wallet/src/lib/conf/env"
-	nmd "github/gisvr/wallet/src/lib/net/metadata"
-	wmeta "github/gisvr/wallet/src/lib/net/rpc/warden/internal/metadata"
-	"github/gisvr/wallet/src/lib/stat/metric"
+	"github.com/gisvr/golib/conf/env"
+	nmd "github.com/gisvr/golib/net/metadata"
+	wmeta "github.com/gisvr/golib/net/rpc/warden/internal/metadata"
+	"github.com/gisvr/golib/stat/metric"
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/balancer"

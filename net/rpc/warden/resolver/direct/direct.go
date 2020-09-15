@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github/gisvr/wallet/src/lib/conf/env"
-	"github/gisvr/wallet/src/lib/naming"
-	"github/gisvr/wallet/src/lib/net/rpc/warden/resolver"
+	"github.com/gisvr/golib/conf/env"
+	"github.com/gisvr/golib/naming"
+	"github.com/gisvr/golib/net/rpc/warden/resolver"
 )
 
 const (

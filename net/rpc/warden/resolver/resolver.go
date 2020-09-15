@@ -7,10 +7,10 @@ import (
 	"strings"
 	"sync"
 
-	"github/gisvr/wallet/src/lib/conf/env"
-	"github/gisvr/wallet/src/lib/log"
-	"github/gisvr/wallet/src/lib/naming"
-	wmeta "github/gisvr/wallet/src/lib/net/rpc/warden/internal/metadata"
+	"github.com/gisvr/golib/conf/env"
+	"github.com/gisvr/golib/log"
+	"github.com/gisvr/golib/naming"
+	wmeta "github.com/gisvr/golib/net/rpc/warden/internal/metadata"
 
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/resolver"

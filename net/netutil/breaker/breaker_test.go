@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	xtime "github/gisvr/wallet/src/lib/time"
+	xtime "github.com/gisvr/golib/time"
 )
 
 func TestGroup(t *testing.T) {

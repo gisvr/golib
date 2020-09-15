@@ -13,12 +13,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github/gisvr/wallet/src/lib/conf/dsn"
-	"github/gisvr/wallet/src/lib/log"
-	"github/gisvr/wallet/src/lib/net/criticality"
-	"github/gisvr/wallet/src/lib/net/ip"
-	"github/gisvr/wallet/src/lib/net/metadata"
-	xtime "github/gisvr/wallet/src/lib/time"
+	"github.com/gisvr/golib/conf/dsn"
+	"github.com/gisvr/golib/log"
+	"github.com/gisvr/golib/net/criticality"
+	"github.com/gisvr/golib/net/ip"
+	"github.com/gisvr/golib/net/metadata"
+	xtime "github.com/gisvr/golib/time"
 
 	"github.com/pkg/errors"
 )

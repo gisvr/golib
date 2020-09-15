@@ -17,10 +17,10 @@ import (
 	"sync"
 	"time"
 
-	"github/gisvr/wallet/src/lib/conf/env"
-	"github/gisvr/wallet/src/lib/net/metadata"
-	"github/gisvr/wallet/src/lib/net/netutil/breaker"
-	xtime "github/gisvr/wallet/src/lib/time"
+	"github.com/gisvr/golib/conf/env"
+	"github.com/gisvr/golib/net/metadata"
+	"github.com/gisvr/golib/net/netutil/breaker"
+	xtime "github.com/gisvr/golib/time"
 
 	"github.com/gogo/protobuf/proto"
 	pkgerr "github.com/pkg/errors"

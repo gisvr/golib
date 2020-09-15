@@ -10,16 +10,16 @@ import (
 	"sync"
 	"time"
 
-	"github/gisvr/wallet/src/lib/conf/dsn"
-	"github/gisvr/wallet/src/lib/log"
-	nmd "github/gisvr/wallet/src/lib/net/metadata"
-	"github/gisvr/wallet/src/lib/net/rpc/warden/ratelimiter"
-	"github/gisvr/wallet/src/lib/net/trace"
-	xtime "github/gisvr/wallet/src/lib/time"
+	"github.com/gisvr/golib/conf/dsn"
+	"github.com/gisvr/golib/log"
+	nmd "github.com/gisvr/golib/net/metadata"
+	"github.com/gisvr/golib/net/rpc/warden/ratelimiter"
+	"github.com/gisvr/golib/net/trace"
+	xtime "github.com/gisvr/golib/time"
 
 	//this package is for json format response
-	_ "github/gisvr/wallet/src/lib/net/rpc/warden/internal/encoding/json"
-	"github/gisvr/wallet/src/lib/net/rpc/warden/internal/status"
+	_ "github.com/gisvr/golib/net/rpc/warden/internal/encoding/json"
+	"github.com/gisvr/golib/net/rpc/warden/internal/status"
 
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"

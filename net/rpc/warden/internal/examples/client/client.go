@@ -5,9 +5,9 @@ import (
 	"flag"
 	"fmt"
 
-	"github/gisvr/wallet/src/lib/log"
-	"github/gisvr/wallet/src/lib/net/rpc/warden"
-	pb "github/gisvr/wallet/src/lib/net/rpc/warden/internal/proto/testproto"
+	"github.com/gisvr/golib/log"
+	"github.com/gisvr/golib/net/rpc/warden"
+	pb "github.com/gisvr/golib/net/rpc/warden/internal/proto/testproto"
 )
 
 // usage: ./client -grpc.target=test.service=127.0.0.1:9000

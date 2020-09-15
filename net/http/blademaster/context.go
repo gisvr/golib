@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"text/template"
 
-	"github/gisvr/wallet/src/lib/ecode"
-	"github/gisvr/wallet/src/lib/net/http/blademaster/binding"
-	"github/gisvr/wallet/src/lib/net/http/blademaster/render"
+	"github.com/gisvr/golib/ecode"
+	"github.com/gisvr/golib/net/http/blademaster/binding"
+	"github.com/gisvr/golib/net/http/blademaster/render"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/gogo/protobuf/types"

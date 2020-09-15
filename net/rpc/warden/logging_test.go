@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 
-	"github/gisvr/wallet/src/lib/log"
+	"github.com/gisvr/golib/log"
 )
 
 func Test_logFn(t *testing.T) {

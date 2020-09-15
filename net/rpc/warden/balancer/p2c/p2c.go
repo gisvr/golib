@@ -9,11 +9,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github/gisvr/wallet/src/lib/conf/env"
+	"github.com/gisvr/golib/conf/env"
 
-	"github/gisvr/wallet/src/lib/log"
-	nmd "github/gisvr/wallet/src/lib/net/metadata"
-	wmd "github/gisvr/wallet/src/lib/net/rpc/warden/internal/metadata"
+	"github.com/gisvr/golib/log"
+	nmd "github.com/gisvr/golib/net/metadata"
+	wmd "github.com/gisvr/golib/net/rpc/warden/internal/metadata"
 
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"

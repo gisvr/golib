@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github/gisvr/wallet/src/lib/conf/env"
-	"github/gisvr/wallet/src/lib/net/ip"
+	"github.com/gisvr/golib/conf/env"
+	"github.com/gisvr/golib/net/ip"
 
 	"github.com/pkg/errors"
 )

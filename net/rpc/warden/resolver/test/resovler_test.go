@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	"github/gisvr/wallet/src/lib/conf/env"
-	"github/gisvr/wallet/src/lib/naming"
-	"github/gisvr/wallet/src/lib/net/netutil/breaker"
-	"github/gisvr/wallet/src/lib/net/rpc/warden"
-	pb "github/gisvr/wallet/src/lib/net/rpc/warden/internal/proto/testproto"
-	"github/gisvr/wallet/src/lib/net/rpc/warden/resolver"
-	xtime "github/gisvr/wallet/src/lib/time"
+	"github.com/gisvr/golib/conf/env"
+	"github.com/gisvr/golib/naming"
+	"github.com/gisvr/golib/net/netutil/breaker"
+	"github.com/gisvr/golib/net/rpc/warden"
+	pb "github.com/gisvr/golib/net/rpc/warden/internal/proto/testproto"
+	"github.com/gisvr/golib/net/rpc/warden/resolver"
+	xtime "github.com/gisvr/golib/time"
 
 	"github.com/stretchr/testify/assert"
 )

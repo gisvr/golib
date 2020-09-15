@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github/gisvr/wallet/src/lib/net/netutil/breaker"
-	xtime "github/gisvr/wallet/src/lib/time"
+	"github.com/gisvr/golib/net/netutil/breaker"
+	xtime "github.com/gisvr/golib/time"
 )
 
 // ExampleGroup show group usage.

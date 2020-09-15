@@ -6,8 +6,8 @@ import (
 	"os"
 	"runtime"
 
-	"github/gisvr/wallet/src/lib/ecode"
-	"github/gisvr/wallet/src/lib/log"
+	"github.com/gisvr/golib/ecode"
+	"github.com/gisvr/golib/log"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

@@ -1,8 +1,8 @@
 package warden
 
 import (
-	"github/gisvr/wallet/src/lib/log"
-	"github/gisvr/wallet/src/lib/net/rpc/warden/cert"
+	"github.com/gisvr/golib/log"
+	"github.com/gisvr/golib/net/rpc/warden/cert"
 	"google.golang.org/grpc"
 )
 

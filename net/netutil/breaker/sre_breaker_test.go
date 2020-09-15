@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github/gisvr/wallet/src/lib/stat/metric"
-	xtime "github/gisvr/wallet/src/lib/time"
+	"github.com/gisvr/golib/stat/metric"
+	xtime "github.com/gisvr/golib/time"
 
 	"github.com/stretchr/testify/assert"
 )

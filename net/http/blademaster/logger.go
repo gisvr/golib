@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"github/gisvr/wallet/src/lib/ecode"
-	"github/gisvr/wallet/src/lib/log"
-	"github/gisvr/wallet/src/lib/net/metadata"
+	"github.com/gisvr/golib/ecode"
+	"github.com/gisvr/golib/log"
+	"github.com/gisvr/golib/net/metadata"
 )
 
 // Logger is logger  middleware

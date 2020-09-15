@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github/gisvr/wallet/src/lib/conf/env"
-	"github/gisvr/wallet/src/lib/log"
-	"github/gisvr/wallet/src/lib/net/criticality"
-	"github/gisvr/wallet/src/lib/net/metadata"
+	"github.com/gisvr/golib/conf/env"
+	"github.com/gisvr/golib/log"
+	"github.com/gisvr/golib/net/criticality"
+	"github.com/gisvr/golib/net/metadata"
 
 	"github.com/pkg/errors"
 )

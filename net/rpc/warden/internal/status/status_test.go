@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github/gisvr/wallet/src/lib/ecode"
+	"github.com/gisvr/golib/ecode"
 )
 
 func TestCodeConvert(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github/gisvr/wallet/src/lib/log"
+	"github.com/gisvr/golib/log"
 
 	"github.com/pkg/errors"
 )

@@ -1,6 +1,6 @@
 package warden
 
-import "github/gisvr/wallet/src/lib/stat/metric"
+import "github.com/gisvr/golib/stat/metric"
 
 const (
 	clientNamespace = "grpc_client"

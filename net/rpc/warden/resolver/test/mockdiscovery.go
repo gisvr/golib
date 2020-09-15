@@ -3,8 +3,8 @@ package resolver
 import (
 	"context"
 
-	"github/gisvr/wallet/src/lib/conf/env"
-	"github/gisvr/wallet/src/lib/naming"
+	"github.com/gisvr/golib/conf/env"
+	"github.com/gisvr/golib/naming"
 )
 
 type mockDiscoveryBuilder struct {

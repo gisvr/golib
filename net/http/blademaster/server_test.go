@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	criticalityPkg "github/gisvr/wallet/src/lib/net/criticality"
-	"github/gisvr/wallet/src/lib/net/metadata"
-	xtime "github/gisvr/wallet/src/lib/time"
+	criticalityPkg "github.com/gisvr/golib/net/criticality"
+	"github.com/gisvr/golib/net/metadata"
+	xtime "github.com/gisvr/golib/time"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -1,7 +1,7 @@
 package mocktrace
 
 import (
-	"github/gisvr/wallet/src/lib/net/trace"
+	"github.com/gisvr/golib/net/trace"
 )
 
 // MockTrace .

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github/gisvr/wallet/src/lib/log"
+	"github.com/gisvr/golib/log"
 	"crypto/ecdsa"
 	"crypto/elliptic"
 	"crypto/rand"

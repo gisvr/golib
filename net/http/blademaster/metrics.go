@@ -1,6 +1,6 @@
 package blademaster
 
-import "github/gisvr/wallet/src/lib/stat/metric"
+import "github.com/gisvr/golib/stat/metric"
 
 const (
 	clientNamespace = "http_client"

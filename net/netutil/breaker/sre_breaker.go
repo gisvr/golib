@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github/gisvr/wallet/src/lib/ecode"
-	"github/gisvr/wallet/src/lib/log"
-	"github/gisvr/wallet/src/lib/stat/metric"
+	"github.com/gisvr/golib/ecode"
+	"github.com/gisvr/golib/log"
+	"github.com/gisvr/golib/stat/metric"
 )
 
 // sreBreaker is a sre CircuitBreaker pattern.

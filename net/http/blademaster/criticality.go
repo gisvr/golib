@@ -1,8 +1,8 @@
 package blademaster
 
 import (
-	criticalityPkg "github/gisvr/wallet/src/lib/net/criticality"
-	"github/gisvr/wallet/src/lib/net/metadata"
+	criticalityPkg "github.com/gisvr/golib/net/criticality"
+	"github.com/gisvr/golib/net/metadata"
 
 	"github.com/pkg/errors"
 )

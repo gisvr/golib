@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	xtime "github/gisvr/wallet/src/lib/time"
+	xtime "github.com/gisvr/golib/time"
 )
 
 // Config broker config.

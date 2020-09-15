@@ -5,9 +5,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github/gisvr/wallet/src/lib/log"
-	limit "github/gisvr/wallet/src/lib/ratelimit"
-	"github/gisvr/wallet/src/lib/ratelimit/bbr"
+	"github.com/gisvr/golib/log"
+	limit "github.com/gisvr/golib/ratelimit"
+	"github.com/gisvr/golib/ratelimit/bbr"
 )
 
 // RateLimiter bbr middleware.

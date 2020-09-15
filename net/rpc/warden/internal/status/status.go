@@ -4,7 +4,7 @@ import (
 	"context"
 	"strconv"
 
-	"github/gisvr/wallet/src/lib/ecode"
+	"github.com/gisvr/golib/ecode"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"

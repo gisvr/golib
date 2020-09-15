@@ -2,10 +2,10 @@ package zipkin
 
 import (
 	"fmt"
-	protogen "github/gisvr/wallet/src/lib/net/trace/proto"
+	protogen "github.com/gisvr/golib/net/trace/proto"
 	"time"
 
-	"github/gisvr/wallet/src/lib/net/trace"
+	"github.com/gisvr/golib/net/trace"
 	"github.com/openzipkin/zipkin-go/model"
 	"github.com/openzipkin/zipkin-go/reporter"
 	"github.com/openzipkin/zipkin-go/reporter/http"

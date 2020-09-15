@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github/gisvr/wallet/src/lib/net/netutil/breaker"
-	"github/gisvr/wallet/src/lib/net/rpc/warden"
-	"github/gisvr/wallet/src/lib/net/rpc/warden/internal/benchmark/bench/proto"
-	xtime "github/gisvr/wallet/src/lib/time"
+	"github.com/gisvr/golib/net/netutil/breaker"
+	"github.com/gisvr/golib/net/rpc/warden"
+	"github.com/gisvr/golib/net/rpc/warden/internal/benchmark/bench/proto"
+	xtime "github.com/gisvr/golib/time"
 
 	goproto "github.com/gogo/protobuf/proto"
 	"github.com/montanaflynn/stats"

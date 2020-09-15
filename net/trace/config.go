@@ -8,9 +8,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github/gisvr/wallet/src/lib/conf/dsn"
-	"github/gisvr/wallet/src/lib/conf/env"
-	xtime "github/gisvr/wallet/src/lib/time"
+	"github.com/gisvr/golib/conf/dsn"
+	"github.com/gisvr/golib/conf/env"
+	xtime "github.com/gisvr/golib/time"
 )
 
 var _traceDSN = "unixgram:///var/run/dapper-collect/dapper-collect.sock"

@@ -7,7 +7,7 @@ import (
 	"os"
 	"sync"
 
-	"github/gisvr/wallet/src/lib/conf/dsn"
+	"github.com/gisvr/golib/conf/dsn"
 
 	"github.com/pkg/errors"
 )

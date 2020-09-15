@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github/gisvr/wallet/src/lib/log"
+	"github.com/gisvr/golib/log"
 )
 
 func matchHostSuffix(suffix string) func(*url.URL) bool {

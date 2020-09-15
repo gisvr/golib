@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github/gisvr/wallet/src/lib/net/rpc/warden"
-	pb "github/gisvr/wallet/src/lib/net/rpc/warden/internal/proto/testproto"
-	xtime "github/gisvr/wallet/src/lib/time"
+	"github.com/gisvr/golib/net/rpc/warden"
+	pb "github.com/gisvr/golib/net/rpc/warden/internal/proto/testproto"
+	xtime "github.com/gisvr/golib/time"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

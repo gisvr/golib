@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	protogen "github/gisvr/wallet/src/lib/net/trace/proto"
+	protogen "github.com/gisvr/golib/net/trace/proto"
 )
 
 const (

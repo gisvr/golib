@@ -4,8 +4,8 @@ import (
 	"context"
 	"strconv"
 
-	nmd "github/gisvr/wallet/src/lib/net/rpc/warden/internal/metadata"
-	"github/gisvr/wallet/src/lib/stat/sys/cpu"
+	nmd "github.com/gisvr/golib/net/rpc/warden/internal/metadata"
+	"github.com/gisvr/golib/stat/sys/cpu"
 
 	"google.golang.org/grpc"
 	gmd "google.golang.org/grpc/metadata"
