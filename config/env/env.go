@@ -57,8 +57,8 @@ func init() {
 	app := os.Args[0]
 	app = filepath.Base(app)
 	app = strings.TrimSuffix(app, ".exe")
-	AppID = app
-	addFlag(flag.CommandLine)
+	//AppID = app
+	//addFlag(flag.CommandLine)
 }
 
 func addFlag(fs *flag.FlagSet) {
