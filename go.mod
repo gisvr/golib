@@ -3,7 +3,6 @@ module github.com/gisvr/golib
 go 1.15
 
 require (
-	bitbucket.org/biiigle/biiigle_wa001_dams v0.0.0-20200810113058-4a4493008e88 // indirect
 	github.com/BurntSushi/toml v0.3.1
 	github.com/allegro/bigcache v1.2.1 // indirect
 	github.com/apilayer/freegeoip v3.5.0+incompatible // indirect

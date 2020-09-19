@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	xtime "bitbucket.org/biiigle/biiigle_wa001_dams/src/lib/time"
+	xtime "github.com/gisvr/golib/time"
 
 	"github.com/stretchr/testify/assert"
 )

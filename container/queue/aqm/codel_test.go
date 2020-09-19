@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"bitbucket.org/biiigle/biiigle_wa001_dams/src/lib/ecode"
+	"github.com/gisvr/golib/ecode"
 )
 
 var testConf = &Config{
