@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/gisvr/golib/log"
 	"crypto/ecdsa"
 	"crypto/elliptic"
 	"crypto/rand"
 	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/pem"
+	"github.com/gisvr/golib/log"
 	"math/big"
 	"os"
 	"time"
@@ -29,8 +29,8 @@ func main() {
 			Country:            []string{"china"},
 			Province:           []string{"beijing"},
 			StreetAddress:      []string{},
-			Organization:       []string{"bibox"},
-			OrganizationalUnit: []string{"bibox"},
+			Organization:       []string{"gisvr"},
+			OrganizationalUnit: []string{"gisvr"},
 			CommonName:         "wallet",
 		},
 		NotBefore: notBefore,
